@@ -10,7 +10,7 @@ public class Mouse implements MouseListener, MouseMotionListener
         this.aTool = new Pen();
     }
     /****/
-    public void setTool(final Tool pTool){this.aTool = pTool;}
+    public void setTool(final Tool pTool){this.aTool = pTool; }
     /****/
     @Override public void mousePressed(MouseEvent e)
     {
